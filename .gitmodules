@@ -1,3 +1,0 @@
-[submodule "site/themes/hugo-theme-slim"]
-	path = site/themes/hugo-theme-slim
-	url = git@github.com:zhe/hugo-theme-slim.git
