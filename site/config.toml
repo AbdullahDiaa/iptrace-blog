@@ -1,3 +1,10 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Homepage"
+title = "Clearip blog"
+Subtitle = "Your site's subtitle/tagline"
+GithubID = "clearip"
+TwitterID = "clearip"
+AnalyticsID = "Your Google Analytics tracking code"
+DisqusShortname = "Your Disqus shortname"
+Summary = true  # takes true or false
+Content = true  # takes true or false
