@@ -8,3 +8,4 @@ AnalyticsID = "Your Google Analytics tracking code"
 DisqusShortname = "Your Disqus shortname"
 Summary = true  # takes true or false
 Content = true  # takes true or false
+theme = "hugo-theme-slim"
