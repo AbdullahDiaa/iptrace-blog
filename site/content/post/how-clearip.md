@@ -4,7 +4,7 @@ author:
   display_name: John Feminella
   family_name: Feminella
   given_name: John
-avatar: /img/about-direct-sourcing.jpg
+avatar: /img/images.jpeg
 date: 2017-01-04T15:04:10.000Z
 description: >-
   Brewing with a Chemex probably seems like a complicated, time-consuming
