@@ -1,8 +1,6 @@
 ---
 title: The beginners’ guide to brewing with Chemex
-author: >-
-  Map { "display_name": "Amal Donkol", "family_name": "Amal", "given_name":
-  "Donkol" }
+author: Amr Sobhy
 avatar: /img/images.jpeg
 date: 2017-01-04T15:04:10.000Z
 description: >-

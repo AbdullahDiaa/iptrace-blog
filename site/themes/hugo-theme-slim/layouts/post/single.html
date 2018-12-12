@@ -15,7 +15,7 @@
           <span class="post-date">{{ .Date.Format "Jan 2, 2006 " }}</span>
           <span class="author">       
              <img class="avatar" src=' {{ $.Param "avatar" }} ' width="50px" height="50px">
-             <p>  {{ $.Param "author.display_name" }}
+             <p>  {{ $.Param "author" }}
              <br/><span>Read in<span id="readTime"></span> minutes</span></p>
              </span>
           <div class="post-content" id="postData" style="margin-top:35px">
