@@ -6,6 +6,10 @@ description: >-
   ordeal, but once you get used to the process, it becomes a soothing ritual
   that's worth the effort every time.
 image: ''
+author:
+ given_name: John
+ family_name: Feminella
+ display_name: John Feminella
 ---
 ![](/img/about-direct-sourcing.jpg)
 
