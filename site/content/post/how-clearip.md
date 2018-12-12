@@ -1,6 +1,6 @@
 ---
 title: The beginners’ guide to brewing with Chemex
-author: Amr Sobhy
+author: Amal Donkol
 avatar: /img/images.jpeg
 date: 2017-01-04T15:04:10.000Z
 description: >-
