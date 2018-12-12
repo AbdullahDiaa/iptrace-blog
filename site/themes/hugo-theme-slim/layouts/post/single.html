@@ -14,7 +14,8 @@
           <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
           <span class="post-date">{{ .Date.Format "Jan 2, 2006 " }}</span>
           <div class="post-content" style="margin-top:10px">
-              Written by <i>{{ $.Param "author.display_name" }}</i>
+              Written by <i>{{ $.Param "author" }}</i>
+              {{ $.Param "avatar" }}
             {{ .Content }}
           </div>
         </div>
