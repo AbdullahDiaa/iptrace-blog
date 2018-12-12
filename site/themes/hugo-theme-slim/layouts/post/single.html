@@ -15,7 +15,8 @@
           <span class="post-date">{{ .Date.Format "Jan 2, 2006 " }}</span>
           <span class="author">       
              <img class="avatar" src=' {{ $.Param "avatar" }} ' width="60px" height="60px"><i>by {{ $.Param "author.display_name" }}</i></span> 
-          <div class="post-content" style="margin-top:35px">
+             <br />Read in <span id="readTime"></span> minutes
+          <div class="post-content" id="postData" style="margin-top:35px">
             {{ .Content }}
           </div>
         </div>
@@ -47,6 +48,10 @@
   <script src="{{ .Site.BaseURL }}js/highlight.min.js"></script>
   <script>
     hljs.initHighlightingOnLoad();
+    var totalWords = document.getElementById('postData').innerHTML.split(' ').length;
+   var timeToRead = totalWords / 200;
+   var timeInt = Math.round(timeToRead);
+   document.getElementById("readTime").innerHTML = timeInt;
   </script>
   {{ with .Site.Params.AnalyticsID }}{{ partial "analytics.html" . }}{{ end }}
 </body>
