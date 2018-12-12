@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Clearip blog"
+title = "clearip.io"
 Subtitle = "Your site's subtitle/tagline"
 GithubID = "clearip"
 TwitterID = "getclearip"
