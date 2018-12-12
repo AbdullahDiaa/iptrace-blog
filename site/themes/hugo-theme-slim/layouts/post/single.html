@@ -14,8 +14,10 @@
           <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
           <span class="post-date">{{ .Date.Format "Jan 2, 2006 " }}</span>
           <span class="author">       
-             <img class="avatar" src=' {{ $.Param "avatar" }} ' width="60px" height="60px"><i>by {{ $.Param "author.display_name" }}</i></span> 
-             <br />Read in <span id="readTime"></span> minutes
+             <img class="avatar" src=' {{ $.Param "avatar" }} ' width="50px" height="50px">
+             <p>  {{ $.Param "author.display_name" }}
+             <br/><span>Read in<span id="readTime"></span> minutes</span></p>
+             </span>
           <div class="post-content" id="postData" style="margin-top:35px">
             {{ .Content }}
           </div>
