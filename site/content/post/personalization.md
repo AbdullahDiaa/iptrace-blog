@@ -2,7 +2,7 @@
 title: Why you should personalize push notifications?
 author: Mollie Green
 avatar: /img/7f89e9e590eac9998ca498ff2b2ab0ed.png
-date: 2018-12-12T02:50:25.126Z
+date: 2018-12-17T20:00:00.000Z
 description: 'Hello World. '
 ---
 Hello FirstName. Does that feel authentic and genuine to you? Messages and notifications that feel impersonal often don’t entice users to take the action you’d like them to take. Notifications that involve name-based personalization have a much more positive impact, and can actually increase the open rate, engagement, and retention of your audience.
