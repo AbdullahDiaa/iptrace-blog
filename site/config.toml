@@ -12,4 +12,4 @@ FooterMsg = "by PushBots Inc 2018"
 theme = "hugo-theme-slim"
 [params]
 twitter = "getclearip"
-FullUrl =  "https://clearip.io/"
+FullUrl =  "https://clearip.io"
