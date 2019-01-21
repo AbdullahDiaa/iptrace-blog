@@ -1,15 +1,51 @@
-baseurl = "/"
-languageCode = "en-us"
-title = "clearip.io"
-Subtitle = "Your site's subtitle/tagline"
-GithubID = "clearip"
-twitter = "getclearip"
-AnalyticsID = "Your Google Analytics tracking code"
-DisqusShortname = "Your Disqus shortname"
-Summary = true  # takes true or false
-Content = true  # takes true or false
-FooterMsg = "by PushBots Inc 2018"
-theme = "hugo-theme-slim"
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
 [params]
-twitter = "getclearip"
-FullUrl =  "https://blog.clearip.io"
+  title       = "Clearip Blog"
+  subtitle    = "API to build location-aware mobile and web apps"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "getclearip"
+  fbName = ""
+  githubName = "clearip"
+
+  logo = "clearip-logo-w.png"
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "EM"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Clearip Team"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Try for free"
+  url = "https://clearip.io"
+  weight = 99
+

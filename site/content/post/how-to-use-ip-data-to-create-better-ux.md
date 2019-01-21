@@ -1,7 +1,7 @@
 ---
 title: How to Use IP Data to Create Better UX
 author: Mollie Green
-avatar: /img/7f89e9e590eac9998ca498ff2b2ab0ed.png
+authorAvatar: /img/7f89e9e590eac9998ca498ff2b2ab0ed.png
 date: 2018-12-19T23:54:49.630Z
 description: >-
   Most developers decide to build a web or mobile app for three reasons.
@@ -11,7 +11,6 @@ description: >-
   service.
 image: /img/image1-min.png
 ---
-![](/img/image1-min.png)
 
 Most developers decide to build a web or mobile app for three reasons.
 

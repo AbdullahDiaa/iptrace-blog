@@ -1,7 +1,7 @@
 ---
 title: Why you should personalize push notifications?
 author: Mollie Green
-avatar: /img/7f89e9e590eac9998ca498ff2b2ab0ed.png
+authorAvatar: /img/7f89e9e590eac9998ca498ff2b2ab0ed.png
 date: 2018-12-17T20:00:00.000Z
 description: 'Hello World. '
 ---
