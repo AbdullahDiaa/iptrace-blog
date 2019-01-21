@@ -2,7 +2,7 @@
         <p>Like it? Share it!</p>
     
         <div class="socialbutton-wrapper">
-            <a href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }} {{ .Site.Params.FullUrl }}{{ .Permalink }}&amp;via={{ .Site.Social.twitter }}" target="_blank" class="share-btn twitter">
+            <a href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }} {{ .Site.Params.FullUrl }}{{ .Permalink }}&amp;via={{ .Site.Params.twitter }}" target="_blank" class="share-btn twitter">
     
                 <div class="socialbutton twitter" data-share-url="{{.Site.Params.FullUrl}}{{ .Permalink }}">
                     <p class="icon">
@@ -15,7 +15,7 @@
     
     
             <a href="//www.facebook.com/sharer/sharer.php?u={{ .Site.Params.FullUrl }}{{ .Permalink }}" target="_blank" class="share-btn facebook">
-                <div class="socialbutton facebook" data-share-url="{{ .Permalink }}">
+                <div class="socialbutton facebook" data-share-url="{{ .Site.Params.FullUrl }}{{ .Permalink }}">
                     <p class="icon">
                         <img src="/img/icon-facebook.png">
                     </p>
@@ -24,16 +24,15 @@
                 </div>
             </a>
     
-    
-            <!-- <a href="http://www.reddit.com/submit?url=http://www.savjee.be">
-                <div class="socialbutton reddit">
+            <a href="http://www.linkedin.com/shareArticle?mini=true&title={{ .Title }}&url={{ .Site.Params.FullUrl }}{{ .Permalink }}">
+                <div class="socialbutton lin">
                     <p class="icon">
-                        <img src="/img/icon-reddit.png">
+                        <img src="/img/li.png" width="24px" height="24px">
                     </p>
     
                     <p class="shares">0</p>
                 </div>
-            </a> -->
+            </a>
         </div>
     </div>
     
