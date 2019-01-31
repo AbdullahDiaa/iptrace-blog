@@ -46,6 +46,6 @@ paginate        = 6
 
 [[menu.main]]
   name = "Try for free"
-  url = "https://clearip.io/register"
+  url = "https://app.clearip.io/register?ref=blog"
   weight = 199
 
