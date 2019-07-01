@@ -60,4 +60,4 @@ The case for IP data as fraud prevention is pretty clear. The ability to clearly
 
 
 
-Clearip.io was built to be the only developer API that entrepreneurs would need to build location-aware web and mobile apps. Our goal is to be your greatest resource for improving your UX with an IP to geolocation API.
+iptrace.io was built to be the only developer API that entrepreneurs would need to build location-aware web and mobile apps. Our goal is to be your greatest resource for improving your UX with an IP to geolocation API.
